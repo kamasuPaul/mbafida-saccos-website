@@ -1,0 +1,195 @@
+*{
+    font-family: Tahoma,Arial;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+.top-header{
+    width: 100%;
+    background: linear-gradient(to top right, #800000 5%, #f7b580 256%);
+    padding: 20px 0;
+}
+.top-header h4{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial;
+}
+.nav-section{
+    background: #f3d3be;
+    list-style-type: none;
+    height: 49px;
+    width: 100%;
+}
+.nav-section li{
+    float: left;
+}
+
+.current-section {
+    border-bottom: 4px solid;
+    border-bottom-color: #870C08;
+    background-color: #f7e2d4;
+    padding: 15px 10px 11px 10px;
+    width: 30%;
+    text-align: center;
+    margin-left: 28%;
+    cursor: default;
+    font-size: 18px;
+    line-height: 1;
+    position: absolute;
+}
+.nav-buttons{
+    text-decoration: none;
+    color: black;
+    color: #840705;
+    font-size: 18px;
+}
+.nav-buttons:hover{
+    background-color: #f7e2d4;
+    border-radius: 6px;
+    color: black;
+}
+.nav-buttons:focus{
+    background-color: #F3D3BE;
+    border-radius: 6px;
+    color: black;
+}
+.home{
+    padding: 11px 10px 15px 10px;
+    line-height: 2.5;
+}
+.logout{
+    padding: 1px 10px 3px 10px;
+    line-height: 2.5;
+    margin-left: 89%;
+    position: absolute;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+}
+.left-side{
+    float: left;
+}
+.right-side{
+    float: right;
+    margin-right: 30px;
+}
+.detail-section{
+    margin:20px 0;
+}
+.label{
+    font-size: 16px;
+    float: left;
+    margin-top: 10px;
+}
+.entry {
+    border: 2px solid #E5B5B3;
+    background: transparent;
+    padding: 18px;
+    width: 260px;
+    margin-left: 104px;
+    text-align: center;
+    color: black;
+}
+.tabular-section p{
+    font-size:18px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+}
+hr{
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.tabular-section hr{
+    border-color: #f1d7d6;
+    border-width: 2px;
+    margin:2px 0; 
+}
+.tabular-section table {
+    margin-top: 8px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabular-section th,.tabular-section td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/*******************************************
+                Media Queries
+*******************************************/
+@media screen and (max-width:1072px){
+    .form-section{
+        margin: auto;
+        width: 50%;
+    }
+    .right-side {
+        clear: left;
+        float: none;
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width:1100px){
+    .logout {
+        margin-left: 84%;
+    }
+    .fieldset input[type="submit"]{
+        width: 100px;
+    }
+}
+@media screen and (max-width:955px){
+    .logout {
+        margin-left: 82%;
+    }
+    .form-section{
+        width: 60%;
+    }
+}
+@media screen and (max-width:781px){
+    .logout {
+        padding: 0 5px 4px 6px;
+    }
+    .form-section{
+        width: 70%;
+    }
+}
+@media screen and (max-width:739px){
+    .current-section{
+        width: 25%;
+        margin-left: 26%;
+    }
+    .logout{
+        margin-left: 79%;
+    }
+}
+
+@media screen and (max-width:670px){
+    .form-section{
+        width: 82%;
+    }
+    .container{
+        width: 90%;
+    }
+}
+@media screen and (max-width:620px){
+    .form-section{
+        width: 100%;
+    }
+    .current-section{
+        width: 28%;
+        margin-left: 23%;
+        font-size: 16px;
+        padding-bottom: 13px;
+    }
+    .logout{
+        margin-left: 70%;
+    }
+}
